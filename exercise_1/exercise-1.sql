@@ -5,7 +5,7 @@ SELECT
     address_id 
 FROM
     address
-LEFT JOIN
+INNER JOIN
     city
 ON
     address.city_id = city.city_id
